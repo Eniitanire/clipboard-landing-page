@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+.root{
+    /*Primary */
+
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    
+   /* Neutral */
+    
+   --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+   --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* .container{
+   margin: 80px;
+} */
+
+.section1{
+   margin: 100px;
+}
+
+.the-logo{
+    margin-left: 650px;
+    width: 100px;
+}
+
+ .paragraph1, .top-btns{
+    margin-left: 380px;
+    margin-top: 40px;
+    font-size: 19px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(201, 11%, 66%);
+}
+
+.head{
+    margin-left: 490px;
+    margin-top: 30px;
+}
+
+.ios{
+    padding: 10px 20px;
+    background-color: hsl(171, 66%, 44%);
+    border-color: transparent;
+    color: white;
+    border-radius: 20px;
+    margin-left: 155px;
+    box-shadow: 1px 1px 4px hsla(171, 66%, 44%, 0.5);
+}
+
+.mac{
+    padding: 10px 20px;
+    background-color: hsl(233, 100%, 69%);
+    border-color: transparent;
+    color: white;
+    border-radius: 20px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 4px hsl(233, 100%, 69%, 0.2);
+}
+
+.head1{
+    margin-left: 490px;
+    margin-top: 120px;
+    font-size: 28px;
+}
+
+
+.section2{
+    display: flex;
+    font-size: 18px;
+}
+
+.computer-device{
+    width: 600px;
+}
+
+.sect-details{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.details1, .details2, .details3{
+    margin-top: 38px;
+}
+
+.content{
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+.section3{
+    margin-top: 100px;
+}
+
+.device{
+    margin-left: 250px;
+    margin-top: 90px;
+}
+
+.paragraph{
+    margin-left: 500px;
+    margin-top: 15px;
+    font-size: 19px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(201, 11%, 66%);
+}
+
+.mini-sects{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+.svgs{
+    margin-left: 90px;
+}
+
+.svg-title{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    color:  hsl(210, 10%, 33%);
+}
+
+.svg-content{
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 10px;
+    color:  hsl(210, 10%, 33%);
+}
+
+.sect1, .sect2, .sect3{
+    margin-left: 30px;
+}
+
+.logos{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.icons{
+    margin: 40px;
+    width: 130px;
+}
+
+footer{
+    margin-top: 150px;
+    background-color:hsla(201, 11%, 66%, 0.2) ;
+}
+
+.foot-links{
+    display: flex;
+    font-size: 20px;
+    margin-left: 180px;
+    color: hsl(210, 10%, 33%);
+}
+
+.foot-logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.link1, .link2, .link3{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.logo{
+    margin-left: 69px;
+    margin-top: 45px;
+}
+
+.media-icons{
+    margin: 10px;
+}
+
+@media(max-width:575px){
+ 
+    body{
+        background-image:url(./images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .section1{
+        margin: 10px;
+     }
+     
+     .the-logo{
+         margin-left: 160px;
+         /* width: 100px; */
+     }
+
+     .paragraph1{
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 19px;
+        color: hsl(201, 11%, 66%);
+    }
+
+   
+    .head{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .top-btns{
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+    }
+    
+    .ios{
+        padding: 10px 20px;
+        background-color: hsl(171, 66%, 44%);
+        border-color: transparent;
+        color: white;
+        border-radius: 20px;
+        margin-left: 5px;
+        box-shadow: 1px 1px 4px hsla(171, 66%, 44%, 0.5);
+    }
+    
+     .mac{
+        padding: 10px 20px;
+        background-color: hsl(233, 100%, 69%);
+        border-color: transparent;
+        color: white;
+        margin-left: 5px;
+        margin-top: 10px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 4px hsl(233, 100%, 69%, 0.2);
+    }  
+     
+    .head1{
+        margin-left: 40px;
+        margin-top: 40px;
+        font-size: 28px;
+    }
+
+    .section2{
+        display: block;
+        font-size: 18px;
+    }
+    
+    .computer-device{
+        width: 300px;
+        margin-left: 20px;
+    }
+    
+    .sect-details{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    
+    .details1, .details2, .details3{
+        margin-top: 38px;
+    }
+    
+    .content{
+        color: hsl(201, 11%, 66%);
+    }
+    
+    
+    .section3{
+        margin-top: 100px;
+    }
+    
+    .device{
+        margin-left: 20px;
+        width: 400px;
+        margin-top: 90px;
+    }
+    
+    .paragraph{
+        margin-left: 110px;
+        margin-top: 15px;
+        font-size: 19px;
+        color: hsl(201, 11%, 66%);
+    }
+     
+    .mini-sects{
+         display: block;
+         margin-left: 40px;
+         margin-top: 70px;
+    }
+     
+    .svgs{
+        margin-left: 60px;
+    }
+     
+    .svg-title{
+         font-size: 20px;
+         margin-top: 30px;
+         margin-left: 30px;
+         color:  hsl(210, 10%, 33%);
+    }
+
+    .head{
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+
+    .logos{
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+    
+    .icons{
+        margin: 40px;
+        width: 130px;
+    }
+    
+    footer{
+        margin-top: 120px;
+        background-color:hsla(201, 11%, 66%, 0.2) ;
+    }
+    
+    .foot-links{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-left: 180px;
+        color: hsl(210, 10%, 33%);
+    }
+
+    .foot-logo{
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+    
+    .link1, .link2, .link3{
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+    
+    .logo{
+        margin-left: -20px;
+        margin-top: 45px;
+    }
+    
+    .media-icons{
+        margin: 10px;
+    }
+}
+
